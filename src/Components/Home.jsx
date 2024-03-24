@@ -1,33 +1,18 @@
-/**
- * Home component
- *
- * The section at the top of the page to display image of your
- * choice, name and title that describes your career focus.
- */
-
 import React from "react";
 import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
-
-/**
- * Home background image
- *
- * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
- * represents what you see in that image.
- *
- *
- * Need an image? Check out https://unsplash.com to download a photo you
- * freely use on your site.
- */
-import image from "../images/new.jpg";
+import image from "../images/image1.png"; // Main image
+import secondaryImage from "../images/new.jpg"; // Secondary image
 
 const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
+      <div style={{ position: "relative" }}>
+        <img className="background" src={image} alt="" />
+        <img className="secondary-image" src={secondaryImage} style={{ position: "absolute", top: "0", right: "0", height: "100%", width: "auto" }} alt="" />
+      </div>
       <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
@@ -50,3 +35,4 @@ Home.propTypes = {
 };
 
 export default Home;
+
