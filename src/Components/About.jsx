@@ -51,11 +51,6 @@ const detailOrQuote =
 const About = () => {
   return (
     <section className="padding" id="about">
-
-      <div>
-        <h1>Piggies</h1> 
-      </div> 
-
       <img className="background" src={image} alt={imageAltText} />
       
       <div
