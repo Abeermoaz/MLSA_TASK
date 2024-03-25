@@ -31,7 +31,7 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "SLeaderhship",
+  "Leaderhship",
   "Web design",
   "User experience",
   "Inclusive design",
@@ -45,44 +45,32 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my ITexperience I continually look for new and better ways to make tech accessible by all.";
-
-const About = () => {
+const Portfolio = () => {
   return (
-    <section className="padding" id="about">
-      <img className="background" src={image} alt={imageAltText} />
-      
-      <div
-        style={{
-          backgroundColor: "white",
-          width: "50%",
-          padding: "4rem",
-          margin: "3rem auto",
-          textAlign: "center",
-        }}
-      >
-        <h2>About Myself</h2>
-        <p className="large">{description}</p>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
+    <section className="padding" id="portfolio">
+      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem"}}>
+        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
+          <img
+            src={image}
+            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            alt={imageAltText}
+          />
+        </div>
+        <div className="container">
+          {projectList.map((project) => (
+            <div className="box" key={project.title} style={{ backgroundColor: "#bcd4a0" }}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+              </a>
+              <p className="small">{project.description}</p>
+            </div>
           ))}
-        </ul>
-        <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        </div>
       </div>
     </section>
   );
 };
 
-export default About;
+export default Portfolio;
+
