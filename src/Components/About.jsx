@@ -53,9 +53,9 @@ const About = () => {
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
       <div>
-        
+
       </div> 
-      
+      <h2>Piggy</h2>
       <div
         style={{
           backgroundColor: "white",
