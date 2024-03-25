@@ -54,7 +54,7 @@ const projectList =
     "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
   url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
 },
-];
+
 
 const Portfolio = () => {
   return (
