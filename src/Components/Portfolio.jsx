@@ -21,7 +21,7 @@ import React from "react";
  */
 import image from "../images/group.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "An Event group photo";
 
 /**
  * Project list
@@ -29,24 +29,24 @@ const imageAltText = "desktop with books and laptop";
  * An array of objects that will be used to display for your project
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */
-const projectList = [
+const projectList = 
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Hult Prize Campus Director Experience",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "As a Hult Prize Campus Director, I led initiatives fostering innovation and social impact, honing leadership and project management skills while inspiring student involvement.",
+    url: "https://www.skylineuniversity.ac.ae/hult-club",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Assembling and Programming Racebot for beginners",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Beginner-friendly guide for assembling and programming Racebot, offering hands-on experience in robotics",
+    url: "https://drive.google.com/drive/u/0/folders/1ITzTxaYy9cQd5hu1VUCqJOWPPaffnvsp",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created from Canva workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+    url: "file:///C:/Users/abeer/Downloads/Neutral%20Minimalist%20Modern%20Professional%20Accountant%20Resume%20(5).pdf",
   },
   {
     title: "GitHub Codespaces and github.dev",

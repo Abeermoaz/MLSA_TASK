@@ -18,7 +18,7 @@ import React from "react";
  */
 import image from "../images/harami2.png";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "A green aesthetic background image";
 
 /**
  * Sort description that expands on your title on the Home component.
