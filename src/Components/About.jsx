@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/abeer.png";
+import image from "../images/2.png";
 
 const imageAltText = "purple and blue abstract background";
 
