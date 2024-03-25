@@ -53,7 +53,7 @@ const About = () => {
     <section className="padding" id="about">
 
       <div>
-        <h2>Piggy</h2>
+        <h1>Piggies</h1> 
       </div> 
 
       <img className="background" src={image} alt={imageAltText} />
