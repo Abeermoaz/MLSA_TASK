@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Abeer Moazzam",
-  title: "Microsoft Student Ambassador",
+  title: "Software Engineer",
   email: "Abeer.Moazzam@studentambassadors.com",
   gitHub: "Abeermoaz",
   instagram: "",
